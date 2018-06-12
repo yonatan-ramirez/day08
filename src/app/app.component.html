@@ -1,3 +1,6 @@
-<button class="displayDetails">Display Details</button>
+<button (click)="displayDetails()">Display Details</button>
+<button (click)="hideDetails()" [disabled] = true>{{hideDetails}}</button>
 
-<p>This is a random Paragraph!</p>
+<p>{{paragraph}}</p>
+
+<!-- <app-root></app-root> -->
